@@ -1,57 +1,44 @@
-# 用户中心前端
+## 用户管理中心
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+#### by 羽雲: https://github.com/yunhaoyu
 
-## Environment Prepare
+### 项目简介:
+一个企业中最最最常用的系统一一用户中心，其实就是一个简单的“用户管理系统”，实现了用户注册、登录、查询等基础功能。
 
-Install `node_modules`:
+### 技术选型
+#### 前端
+主要运用阿里Ant Design 生态:
+- HTML + CSS + JavaScript 三件套
+- React开发框架
+- Ant Design Pro项目模板
+- Ant Design 端组件库
+- Umi 开发框架
+- Umi Request 请求库
+#### 后端
+- Java 编程语言
+- Spring + SpringMVC + SpringBoot 框架
+- MyBatis + MyBatis Plus 数据访问框架
+- MySQL 数据库
+- jUnit 单元测试库
 
-```bash
-npm install
-```
+### 编译环境:
+- JDK 1.8
+- MySQL 8.0.30
 
-or
 
-```bash
-yarn
-```
+### 项目截图:
+用户登录页面:
+- ![](https://cdn.staticaly.com/gh/yunhaoyu/blogImage@main/img/user-center_01.png)
 
-## Provided Scripts
+用户注册页面:
+- ![](https://cdn.staticaly.com/gh/yunhaoyu/blogImage@main/img/user-center_02.png)
 
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
+用户管理页面:
+- ![](https://cdn.staticaly.com/gh/yunhaoyu/blogImage@main/img/user-center_03.png)
 
-Scripts provided in `package.json`. It's safe to modify or add additional script:
+修改用户信息:
+- ![](https://cdn.staticaly.com/gh/yunhaoyu/blogImage@main/img/user-center_04.png)
 
-### Start project
+管理员添加新用户:
+- ![](https://cdn.staticaly.com/gh/yunhaoyu/blogImage@main/img/user-center_05.png)
 
-```bash
-npm start
-```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
